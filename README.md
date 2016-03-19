@@ -20,6 +20,7 @@ Once you've done that, you need to initiate your RPs. Connect to a host, that wi
 
 ##Shards
 Connect to a mongos instance:
+
 ``sh.addShard("rp1/host1:27017,host2:27017");``
 
 ``sh.addShard("rp2/host3:27017,host4:27017");``
