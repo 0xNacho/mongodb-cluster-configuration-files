@@ -7,7 +7,7 @@ This project contains all the config files needed by a sharded cluster. This is 
 ##Config Server
 ``sudo mongod --config /etc/configServer.conf``
 
-##RPs and Shards
+##RPs
 ``sudo mongod --config /etc/shard.conf``
 
 Once you've done tjat, you need to initiate your RPs:
@@ -18,5 +18,10 @@ Once you've done tjat, you need to initiate your RPs:
 
 ``rs.add("host:27017") // add more hosts to RP``
 
+##Shards
+Connect to a mongos instance:
+``sh.addShard("rp1/host1:27017,host2:27017");``
 
+``sh.addShard("rp2/host3:27017,host4:27017");``
 
+Sharded cluster should be ready to use :)
