@@ -10,7 +10,7 @@ This project contains all the config files needed by a sharded cluster. This is 
 ##RPs
 ``sudo mongod --config /etc/shard.conf``
 
-Once you've done tjat, you need to initiate your RPs:
+Once you've done that, you need to initiate your RPs. Connect to a host, that will be your PRIMARY node on your RP:
 
 ``rs.initiate()``
 
