@@ -16,7 +16,7 @@ Once you've done tjat, you need to initiate your RPs:
 
 ``rs.conf()``
 
-``rs.add("host:27017")``// add more hosts to RP
+``rs.add("host:27017") // add more hosts to RP``
 
 
 
