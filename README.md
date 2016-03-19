@@ -13,7 +13,10 @@ This project contains all the config files needed by a sharded cluster. This is 
 Once you've done tjat, you need to initiate your RPs:
 
 ``rs.initiate()``
+
 ``rs.conf()``
+
 ``rs.add("host:27017")``// add more hosts to RP
+
 
 
